@@ -1,7 +1,31 @@
 {
   "name": "Spam-Ban",
   "description": "To ban Member After Joining.",
-  "env": {
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "kazuko"
+       ],
+   "repository": "https://github.com/SpamShield/Spam-ban.git",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],  
+   "env": {
     "BOT_TOKEN": {
       "description": "Enter bot token.",
       "value": ""
