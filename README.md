@@ -1,6 +1,6 @@
-![Spam-Ban](https://telegra.ph/file/229ddde4bb54e32321a46.jpg)
-
 # Spam-Ban
+
+![Spam-Ban](https://telegra.ph/file/229ddde4bb54e32321a46.jpg)
 
 
 ## A Telegram bot For Groups to protect from strange users get banned after getting added by normal members.
