@@ -4,7 +4,7 @@ from pyrogram.types import Message, User
 from config import API_ID, API_HASH, BOT_TOKEN
 
 bot = Bot(
-    ':ban:',
+    ':kick:',
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
@@ -12,7 +12,7 @@ bot = Bot(
 
 @bot.on_message(filters.command('start'))
 async def start(bot, message):
-    text = 'Hey, I am SpamBan Bot \n\n I Can Ban a Member After Joining The group. \n\n 📖 Note - Added Member will not be banned. \n\n ⚠️Warning- My use is for personal Groups.\n\n'
+    text = 'Hey, I am SpamKick Bot \n\n I Can Kick a Member After Joining The group. \n\n 📖 Note - Added Member will also be kicked. \n\n ⚠️Warning- My use is for personal Groups.\n\n'
     await message.reply(text, quote=True)
     return
 
